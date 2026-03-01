@@ -19,7 +19,7 @@ export default async function ModelsPage3D () {
     return(
         <div className="flex flex-col">
             {models.map((item: Model)=>(
-                <div>
+                <div key={item.id}>
                     <h1>{item.name}</h1>
                 </div>
             ))}
