@@ -21,9 +21,7 @@ export default async function ModelsPage3D () {
     return(
         <div className="p-3 flex flex-col gap-3">
             {models.map((item: Model)=>(
-<<<<<<< Updated upstream
-=======
-                <Link href= "" key={item.id} className="flex flex-col border-2 border-gray-200 rounded-md shadow">
+                  <Link href= "" key={item.id} className="flex flex-col border-2 border-gray-200 rounded-md shadow">
                     <Image className="rounded-t-sm" src={HeroImgSquare} alt="img with 3d printing items" />
                     <div className="p-2 flex flex-col gap-2">
                         <h3 className="text-xl font-semibold">{item.name}</h3>
@@ -34,7 +32,6 @@ export default async function ModelsPage3D () {
                         </div>
                     </div>
                 </Link>
->>>>>>> Stashed changes
             ))}
         </div>
         
