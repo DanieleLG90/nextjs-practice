@@ -22,9 +22,6 @@ export default async function ModelsPage3D () {
         <div className="p-3 flex flex-col gap-3">
             {models.map((item: Model)=>(
 <<<<<<< Updated upstream
-                <div key={item.id}>
-                    <h1>{item.name}</h1>
-                </div>
 =======
                 <Link href= "" key={item.id} className="flex flex-col border-2 border-gray-200 rounded-md shadow">
                     <Image className="rounded-t-sm" src={HeroImgSquare} alt="img with 3d printing items" />
