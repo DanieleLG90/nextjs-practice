@@ -34,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it">
-      <body className={`${albertSans.className} ${montserratAlternates.variable} antialiased w-screen min-h-screen flex flex-col justify-center items-center`}>
+      <body className={`${albertSans.className} ${montserratAlternates.variable} antialiased overflow-x-hidden max-w-full min-h-screen flex flex-col justify-center items-center`}>
 
         <header className="w-full flex justify-between p-3 shadow">
           <Link href="/">
